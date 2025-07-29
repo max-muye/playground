@@ -1,0 +1,31 @@
+# Ignore Python cache and virtual environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env/
+venv/
+ENV/
+
+# Ignore C++ build files
+build/
+*.o
+*.obj
+*.exe
+*.out
+*.log
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore other common files
+*.swp
+*.swo
+*.bak
