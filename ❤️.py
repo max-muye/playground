@@ -1,0 +1,17 @@
+import turtle as t
+t.pencolor("white")
+t.fillcolor("red")
+t.ht()
+t.goto(-100,0)
+t.begin_fill()
+for i in range(2):
+    t.left(90)
+    t.circle(50,180)
+    t.circle(100,180)
+    t.circle(50,180)
+    t.left(90)
+    t.goto(100,0)
+t.end_fill()
+t.pencolor("red")
+t.goto(-100,0)
+t.done()
